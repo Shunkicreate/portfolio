@@ -34,6 +34,12 @@ export default {
 
 
 <style lang="scss">
+  * {
+    margin: 0;
+      // font-family: serif,system-ui;
+      background-color:rgb(239, 239, 240);
+  
+  }
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -55,11 +61,6 @@ export default {
       color: #c9c8c8;
     }
   }
-}
-* {
-  margin: 0;
-    // font-family: serif,system-ui;
-
 }
 
 a {
