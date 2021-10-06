@@ -3,7 +3,10 @@
     <div id="nav" class="shadow-sm">
       <ul class="nav justify-content-end">
         <li class="nav-item">
-          <a href="https://shunkicreate.github.io/portfolio/" class="nav-link active" aria-current="page"
+          <a
+            href="https://shunkicreate.github.io/portfolio/"
+            class="nav-link active"
+            aria-current="page"
             >Home</a
           >
         </li>
@@ -15,31 +18,32 @@
     <keep-alive>
       <router-view />
     </keep-alive>
-    <Footer/>
-
+    <Footer />
   </div>
 </template>
 
 // <script lang="ts">
-import Footer from '../src/components/Footer.vue'
+import Footer from "../src/components/Footer.vue";
 
 export default {
-  name: 'App',
+  name: "App",
 
   components: {
     Footer,
   },
-}
+};
 </script>
 
 
 <style lang="scss">
-  * {
-    margin: 0;
-      // font-family: serif,system-ui;
-      background-color:rgb(239, 239, 240);
-  
+body{
+  background-color:rgb(239, 239, 240);
   }
+* {
+  margin: 0;
+  // font-family: serif,system-ui;
+  background-color: rgb(239, 239, 240);
+}
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -64,14 +68,11 @@ export default {
 }
 
 a {
-    font-weight: bold;
-    color: #2c3e50;
+  font-weight: bold;
+  color: #2c3e50;
+}
 
-
-  }
-
-  .nav-link{
-  font-family: serif,system-ui;
-
-  }
+.nav-link {
+  font-family: serif, system-ui;
+}
 </style>
