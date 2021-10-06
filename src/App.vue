@@ -3,16 +3,18 @@
     <div id="nav" class="shadow-sm">
       <ul class="nav justify-content-end">
         <li class="nav-item">
-          <router-link to="/" class="nav-link active" aria-current="page"
-            >Home</router-link
+          <a href="/" class="nav-link active" aria-current="page"
+            >Home</a
           >
         </li>
         <li class="nav-item">
-          <router-link to="/about" class="nav-link">History</router-link>
+          <router-link to="/history" class="nav-link">History</router-link>
         </li>
       </ul>
     </div>
-    <router-view />
+    <keep-alive>
+      <router-view />
+    </keep-alive>
     <Footer/>
 
   </div>
@@ -56,14 +58,19 @@ export default {
 }
 * {
   margin: 0;
-  font-family: LinotypeUnivers-430Regular, "Gothic Medium BBB", 游ゴシック,
-    "Yu Gothic", 游ゴシック体, YuGothic, "ヒラギノ角ゴ Pro W3", メイリオ, Meiryo,
-    "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+    // font-family: serif,system-ui;
+
 }
 
 a {
     font-weight: bold;
     color: #2c3e50;
+
+
+  }
+
+  .nav-link{
+  font-family: serif,system-ui;
 
   }
 </style>

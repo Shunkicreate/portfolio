@@ -1,23 +1,23 @@
 <template>
   <div class="introduction">
     <div class="container">
-      <div class="row justify-content-center gy-3">
+      <div class="row justify-content-center row-content gy-3">
         <div class="col-12">
           <h2>This is portfolio of Shunki Tada</h2>
         </div>
-        <div class="col-12">
+        <div class="col-12 text">
           <h4>Who is he?</h4>
         </div>
-        <div class="col-12">Shunki Tada is a programer.</div>
-        <div class="col-12">
+        <div class="col-12 text">Shunki Tada is a programer.</div>
+        <div class="col-12 text">
           He can write basic HTML and CSS and he can create a website ueing
           Vue.js.
         </div>
-        <div class="col-12">
+        <div class="col-12 text">
           Moreover, he is familer to Python and C language.
         </div>
-        <div class="col-12">
-          <router-link to="/about" class="nav-link active" aria-current="page"
+        <div class="col-12 text">
+          <router-link to="/history" target="_top" class="nav-link active" aria-current="page"
             >Learn more</router-link
           >
         </div>
@@ -35,11 +35,19 @@ export default defineComponent({
 </script>
 
 <style>
-a {
-  font-weight: bold;
-  color: #2c3e50;
+h2 {
+  font-family: serif, system-ui;
+  padding: 2em;
 }
-.router-link-exact-active {
-  color: #c9c8c8;
+
+
+.text {
+  font-family: LinotypeUnivers-430Regular, "Gothic Medium BBB", 游ゴシック,
+    "Yu Gothic", 游ゴシック体, YuGothic, "ヒラギノ角ゴ Pro W3", メイリオ, Meiryo,
+    "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+}
+.row-content{
+  margin-top:0;
+  margin-bottom:0;
 }
 </style>

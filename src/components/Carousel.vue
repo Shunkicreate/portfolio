@@ -1,8 +1,8 @@
 <template>
   <div class="carousel">
     <div class="container">
-      <div class="row justify-content-center">
-        <div class="col-8">
+      <div class="row justify-content-center row-content">
+        <div class="col-md-8 col-12">
           <div
             id="carouselExampleFade"
             class="carousel slide carousel-fade"
@@ -138,5 +138,10 @@ h3 {
 img {
   margin-top: 1em;
   margin-bottom: 2em;
+}
+
+.row-content {
+  margin-top:0;
+  margin-bottom:0;
 }
 </style>

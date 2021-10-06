@@ -1,6 +1,7 @@
 <template>
   <div class="home">
     <!-- <img alt="Vue logo" src="../assets/logo.png"> -->
+    <h1 class="title" style="font-size: 6ex;">Home</h1>
     <Carousel/>
     <Introduction/>
     <!-- <HelloWorld msg="Welcome to Your Vue.js + TypeScript App"/> -->
@@ -22,3 +23,10 @@ export default defineComponent({
   },
 });
 </script>
+
+<style>
+h1{
+  padding-top:0.5em;
+  font-family: serif,system-ui;
+}
+</style>
