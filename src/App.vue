@@ -3,7 +3,7 @@
     <div id="nav" class="shadow-sm">
       <ul class="nav justify-content-end">
         <li class="nav-item">
-          <a href="/" class="nav-link active" aria-current="page"
+          <a href="https://shunkicreate.github.io/portfolio/" class="nav-link active" aria-current="page"
             >Home</a
           >
         </li>
