@@ -6,7 +6,6 @@
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build --history-api-fallbackz",
     "lint": "vue-cli-service lint",
-    "predeploy": "yarn run build",
     "deploy": "gh-pages -d build"
   },
   "dependencies": {
