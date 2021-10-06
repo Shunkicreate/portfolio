@@ -1,29 +1,35 @@
 <template>
-  <div id="nav" class="shadow-sm">
-    <!-- <div class="container">
-      <div class="row justify-content-end">
-        <div class="col-1">
-          <router-link to="/">Home</router-link>
-        </div>
-        <div class="col-1">
-          <router-link to="/about">About</router-link>
-        </div>
-      </div>
-    </div> -->
-    <ul class="nav justify-content-end ">
-      <li class="nav-item">
-        <router-link to="/" class="nav-link active" aria-current="page"
-          >Home</router-link
-        >
-      </li>
-      <li class="nav-item">
-        <router-link to="/about" class="nav-link">About</router-link>
-      </li>
-    </ul>
-    
+  <div class="app">
+    <div id="nav" class="shadow-sm">
+      <ul class="nav justify-content-end">
+        <li class="nav-item">
+          <router-link to="/" class="nav-link active" aria-current="page"
+            >Home</router-link
+          >
+        </li>
+        <li class="nav-item">
+          <router-link to="/about" class="nav-link">History</router-link>
+        </li>
+      </ul>
+    </div>
+    <router-view />
+    <Footer/>
+
   </div>
-  <router-view />
 </template>
+
+// <script lang="ts">
+import Footer from '../src/components/Footer.vue'
+
+export default {
+  name: 'App',
+
+  components: {
+    Footer,
+  },
+}
+</script>
+
 
 <style lang="scss">
 #app {
@@ -54,4 +60,10 @@
     "Yu Gothic", 游ゴシック体, YuGothic, "ヒラギノ角ゴ Pro W3", メイリオ, Meiryo,
     "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
 }
+
+a {
+    font-weight: bold;
+    color: #2c3e50;
+
+  }
 </style>
