@@ -36,13 +36,16 @@ export default {
 
 
 <style lang="scss">
+html{
+  background-color:#EFEFF0;
+  }
 body{
-  background-color:rgb(239, 239, 240);
+  background-color:#EFEFF0;
   }
 * {
   margin: 0;
   // font-family: serif,system-ui;
-  background-color: rgb(239, 239, 240);
+  background-color: #EFEFF0;
 }
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
@@ -50,12 +53,12 @@ body{
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  background-color: rgb(239, 239, 240);
+  background-color: #EFEFF0;
 }
 
 #nav {
   padding: 50px;
-  background-color: rgb(241, 241, 241);
+  background-color: #EFEFF0;
 
   a {
     font-weight: bold;
