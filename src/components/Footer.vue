@@ -149,5 +149,6 @@ export default defineComponent({
 
 .footer {
   padding: 2em;
+  
 }
 </style>
