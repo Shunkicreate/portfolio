@@ -4,7 +4,7 @@
       <ul class="nav justify-content-end">
         <li class="nav-item">
           <a
-            href="https://shunkicreate.github.io/portfolio/?version=latest"
+            href="https://shunkicreate.github.io/portfolio/"
             class="nav-link active"
             aria-current="page"
             >Home</a
@@ -38,7 +38,7 @@ export default {
 <style lang="scss">
 * {
   margin: 0;
-  background-color: #EFEFF0;
+  // background-color: #EFEFF0;
 }
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
@@ -46,7 +46,7 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  background-color: #EFEFF0;
+  // background-color: #EFEFF0;
 }
 
 #nav {
