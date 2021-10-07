@@ -4,6 +4,6 @@ module.exports = {
     filenameHashing: false,
     productionSourceMap: false,
     pwa :{
-      themeColor: '#FFFFFF',
+      themeColor: '#EFEFF0',
     }
   }

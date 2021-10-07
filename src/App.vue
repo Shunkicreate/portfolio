@@ -4,14 +4,12 @@
       <ul class="nav justify-content-end">
         <li class="nav-item">
           <a
-            href="https://shunkicreate.github.io/portfolio/"
+            href="https://shunkicreate.github.io/portfolio/?version=latest"
             class="nav-link active"
             aria-current="page"
             >Home</a
           >
         </li>
-
-        
         <li class="nav-item">
           <router-link to="/history" class="nav-link">History</router-link>
         </li>
@@ -38,15 +36,8 @@ export default {
 
 
 <style lang="scss">
-html{
-  background-color:#EFEFF0;
-  }
-body{
-  background-color:#EFEFF0;
-  }
 * {
   margin: 0;
-  // font-family: serif,system-ui;
   background-color: #EFEFF0;
 }
 #app {

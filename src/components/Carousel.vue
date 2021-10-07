@@ -9,56 +9,41 @@
             data-bs-ride="carousel"
           >
             <div class="carousel-inner">
-              <!-- <div class="carousel-item active" v-for="item in img_list" :key="item">
-                <img :src="item" class="d-block w-100" alt="" />
-              </div> -->
               <div class="carousel-item active">
                 <img src="../assets/img(1).jpg" class="d-block w-100" alt="" />
-                
               </div>
               <div class="carousel-item">
                 <img src="../assets/img(2).jpg" class="d-block w-100" alt="" />
-                
               </div>
               <div class="carousel-item">
                 <img src="../assets/img(3).jpg" class="d-block w-100" alt="" />
-                
               </div>
               <div class="carousel-item">
                 <img src="../assets/img(4).jpg" class="d-block w-100" alt="" />
-                
               </div>
               <div class="carousel-item">
                 <img src="../assets/img(5).jpg" class="d-block w-100" alt="" />
-                
               </div>
               <div class="carousel-item">
                 <img src="../assets/img(6).jpg" class="d-block w-100" alt="" />
-                
               </div>
               <div class="carousel-item">
                 <img src="../assets/img(7).jpg" class="d-block w-100" alt="" />
-                
               </div>
               <div class="carousel-item">
                 <img src="../assets/img(8).jpg" class="d-block w-100" alt="" />
-                
               </div>
               <div class="carousel-item">
                 <img src="../assets/img(9).jpg" class="d-block w-100" alt="" />
-                
               </div>
               <div class="carousel-item">
                 <img src="../assets/img(10).jpg" class="d-block w-100" alt="" />
-                
               </div>
               <div class="carousel-item">
                 <img src="../assets/img(11).jpg" class="d-block w-100" alt="" />
-                
               </div>
               <div class="carousel-item">
                 <img src="../assets/img(12).jpg" class="d-block w-100" alt="" />
-                
               </div>
             </div>
             <a
@@ -71,7 +56,7 @@
                 class="carousel-control-prev-icon"
                 aria-hidden="true"
               ></span>
-              <span class="visually-hidden">Previous</span>
+              <!-- <span class="visually-hidden">Previous</span> -->
             </a>
             <a
               class="carousel-control-next"
@@ -83,7 +68,7 @@
                 class="carousel-control-next-icon"
                 aria-hidden="true"
               ></span>
-              <span class="visually-hidden">Next</span>
+              <!-- <span class="visually-hidden">Next</span> -->
             </a>
           </div>
         </div>
@@ -107,7 +92,7 @@ export default defineComponent({
 
 <style>
 h3 {
-  font-family: serif,system-ui;
+  font-family: serif, system-ui;
   font-weight: lighter;
 }
 
@@ -117,7 +102,7 @@ img {
 }
 
 .row-content {
-  margin-top:0;
-  margin-bottom:0;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 </style>
