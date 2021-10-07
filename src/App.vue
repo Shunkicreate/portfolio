@@ -10,6 +10,8 @@
             >Home</a
           >
         </li>
+
+        
         <li class="nav-item">
           <router-link to="/history" class="nav-link">History</router-link>
         </li>
