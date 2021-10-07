@@ -3,4 +3,7 @@ module.exports = {
     outputDir: 'dist',
     filenameHashing: false,
     productionSourceMap: false,
+    pwa :{
+      themeColor: '#FFFFFF',
+    }
   }
