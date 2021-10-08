@@ -47,25 +47,25 @@
               </div>
             </div>
             <a
-              class="carousel-control-prev"
+              class="carousel-control-prev "
               href="#carouselExampleFade"
               role="button"
               data-bs-slide="prev"
             >
               <span
-                class="carousel-control-prev-icon"
+                class="carousel-control-prev-icon button"
                 aria-hidden="true"
               ></span>
               <!-- <span class="visually-hidden">Previous</span> -->
             </a>
             <a
-              class="carousel-control-next"
+              class="carousel-control-next "
               href="#carouselExampleFade"
               role="button"
               data-bs-slide="next"
             >
               <span
-                class="carousel-control-next-icon"
+                class="carousel-control-next-icon button"
                 aria-hidden="true"
               ></span>
               <!-- <span class="visually-hidden">Next</span> -->
@@ -101,8 +101,8 @@ img {
   margin-bottom: 2em;
 }
 
-a {
-  background-color:transparent;
+.button {
+  background:none;
 }
 
 .row-content {
