@@ -82,11 +82,6 @@ import { defineComponent } from "@vue/runtime-core";
 
 export default defineComponent({
   name: "Carousel",
-  setup() {
-    return {
-      carousel_message: "",
-    };
-  },
 });
 </script>
 
