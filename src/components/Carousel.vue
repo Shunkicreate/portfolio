@@ -101,6 +101,10 @@ img {
   margin-bottom: 2em;
 }
 
+a {
+  background-color:transparent;
+}
+
 .row-content {
   margin-top: 0;
   margin-bottom: 0;
