@@ -4,7 +4,7 @@
       <ul class="nav justify-content-end">
         <li class="nav-item">
           <a
-            href="https://shunkicreate.github.io/portfolio/"
+            href="https://sharp-colden-9e7b37.netlify.app/"
             class="nav-link active"
             aria-current="page"
             >Home</a
