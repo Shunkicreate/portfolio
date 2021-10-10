@@ -5,5 +5,6 @@ module.exports = {
     productionSourceMap: false,
     pwa :{
       themeColor: '#EFEFF0',
-    }
+    },
+     baseUrl: './'
   }
