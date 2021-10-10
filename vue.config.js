@@ -1,5 +1,5 @@
 module.exports = {
-    publicPath: '/portfolio',
+    publicPath: './',
     outputDir: 'dist',
     filenameHashing: false,
     productionSourceMap: false,
