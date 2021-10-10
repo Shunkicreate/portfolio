@@ -10,7 +10,7 @@
         </div>
         <div class="col-12 text">Shunki Tada is a programer.</div>
         <div class="col-12 text">
-          He can write basic HTML and CSS and he can create a website ueing
+          He can write basic HTML and CSS and he can create a website using
           Vue.js.
         </div>
         <div class="col-12 text">
