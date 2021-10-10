@@ -34,6 +34,12 @@
           My favorite thing to do is to play games. I'm currently playing Haragami and Winning Eleven. I also like Splatoon, and I basically love Nintendo's Mario games. I also listen to music a lot, and am a fan of Mr. Children. I also listen to Vocaloid music, such as Hatsune Miku and Kagamine Rinren. I also like to read. My favorite authors are Kanae Minato and Kotaro Isaka, and I especially love Confessions and Desert.
         </div>
       </div>
+      <div class="row text-start justify-content-center">
+        <div class="col-lg-3 col-12 title">Towards the Future</div>
+        <div class="col-lg-7 col-11 text-break text">
+          I'm currently studying programming. I'm currently studying programming, but only because I want the ability to make interesting things. In other words, I don't like programming per se, but I like to use programming to create something. Therefore, I would like to create something that I find interesting in the future. If you have any questions, please feel free to contact me on any of the SNS below. Thank you for reading this far.
+        </div>
+      </div>
 
     </div>
   </div>
