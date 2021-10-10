@@ -3,7 +3,12 @@
     <div id="nav" class="shadow-sm">
       <ul class="nav justify-content-end">
         <li class="nav-item">
-          <router-link to="/" class="nav-link">Home</router-link>
+          <a
+            href="https://sharp-colden-9e7b37.netlify.app/"
+            class="nav-link active"
+            aria-current="page"
+            >Home</a
+          >
         </li>
         <li class="nav-item">
           <router-link to="/history" class="nav-link">History</router-link>
