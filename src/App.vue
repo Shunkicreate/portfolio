@@ -7,17 +7,25 @@
             href="https://shunkis-portfolio.netlify.app/"
             class="nav-link active"
             aria-current="page"
-            >Home</a
-          >
+          >Home</a>
+        </li>
+        <li class="nav-item">
+          <router-link to="/" class="nav-link">demo home</router-link>
         </li>
         <li class="nav-item">
           <router-link to="/history" class="nav-link">History</router-link>
         </li>
+        <li class="nav-item">
+          <router-link to="/contact" class="nav-link">Contact</router-link>
+        </li>
+        <li class="nav-item">
+          <router-link to="/about" class="nav-link">About</router-link>
+        </li>
       </ul>
     </div>
-    <keep-alive>
+    <transition name="fade">
       <router-view />
-    </keep-alive>
+    </transition>
     <Footer />
   </div>
 </template>
@@ -45,29 +53,47 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  background-color: #EFEFF0;
+  background-color: #efeff0;
 }
+
 
 #nav {
   padding: 50px;
-  background-color: #EFEFF0;
+  background-color: #efeff0;
 
   a {
     font-weight: bold;
     color: #2c3e50;
+    transition: 1s;
 
-    &.router-link-exact-active {
+    &.router-link-exact-active:visited {
       color: #c9c8c8;
     }
+    &.router-link-active:hover {
+      color: #2c3e50;
+    }
+    // &.router-link-exact-active:active {
+    //   color: #ffc400;
+    // }
+    // &.router-link-exact-active:link {
+    //   color: #942500;
+    // }
   }
 }
 
-a {
-  font-weight: bold;
-  color: #2c3e50;
-}
+
 
 .nav-link {
   font-family: serif, system-ui;
+}
+
+.fade-enter-active,
+.fade-leave-active {
+  transition: opacity 3s;
+}
+
+.fade-enter-from,
+.fade-leave-to {
+  opacity: 0;
 }
 </style>

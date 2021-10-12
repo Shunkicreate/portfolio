@@ -1,8 +1,8 @@
 <template>
   <div class="carousel">
     <div class="container">
-      <div class="row justify-content-center row-content">
-        <div class="col-md-8 col-12">
+      <div class="row justify-content-center carousel_img">
+        <div class="col-md-8 col-12 ">
           <div
             id="carouselExampleFade"
             class="carousel slide carousel-fade"
@@ -77,7 +77,7 @@
   </div>
 </template>
 
-<script>
+<script lang="ts">
 import { defineComponent } from "@vue/runtime-core";
 
 export default defineComponent({
@@ -100,8 +100,9 @@ img {
   background:none;
 }
 
-.row-content {
-  margin-top: 0;
-  margin-bottom: 0;
+
+
+.carousel_img{
+  margin:0;
 }
 </style>

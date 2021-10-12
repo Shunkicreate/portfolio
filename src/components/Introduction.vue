@@ -8,13 +8,13 @@
         <div class="col-12 text">
           <h4>Who is he?</h4>
         </div>
-        <div class="col-12 text">Shunki Tada is a programer.</div>
+        <div class="col-12 text">Shunki Tada is a programmer.</div>
         <div class="col-12 text">
           He can write basic HTML and CSS and he can create a website using
           Vue.js.
         </div>
         <div class="col-12 text">
-          Moreover, he is familer to Python and C language.
+          Moreover, he is familior with Python and C language.
         </div>
         <div class="col-12 text">
           <router-link to="/history" target="_top" class="nav-link active" aria-current="page"
@@ -26,7 +26,7 @@
   </div>
 </template>
 
-<script>
+<script lang="ts">
 import { defineComponent } from "@vue/runtime-core";
 
 export default defineComponent({
