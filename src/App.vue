@@ -2,15 +2,15 @@
   <div class="app">
     <div id="nav" class="shadow-sm">
       <ul class="nav justify-content-end">
-        <li class="nav-item">
+        <!-- <li class="nav-item">
           <a
             href="https://shunkis-portfolio.netlify.app/"
             class="nav-link active"
             aria-current="page"
           >Home</a>
-        </li>
+        </li> -->
         <li class="nav-item">
-          <router-link to="/" class="nav-link">demo home</router-link>
+          <router-link to="/" class="nav-link">Home</router-link>
         </li>
         <li class="nav-item">
           <router-link to="/history" class="nav-link">History</router-link>
@@ -19,7 +19,7 @@
           <router-link to="/contact" class="nav-link">Contact</router-link>
         </li>
         <li class="nav-item">
-          <router-link to="/about" class="nav-link">About</router-link>
+          <router-link to="/about" class="nav-link">About me</router-link>
         </li>
       </ul>
     </div>
@@ -72,12 +72,6 @@ export default {
     &.router-link-active:hover {
       color: #2c3e50;
     }
-    // &.router-link-exact-active:active {
-    //   color: #ffc400;
-    // }
-    // &.router-link-exact-active:link {
-    //   color: #942500;
-    // }
   }
 }
 

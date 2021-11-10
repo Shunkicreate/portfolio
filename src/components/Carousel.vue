@@ -10,40 +10,40 @@
           >
             <div class="carousel-inner">
               <div class="carousel-item active">
-                <img src="../assets/img(1).jpg" class="d-block w-100" alt="" />
+                <img src="@/assets/image(1).webp" class="d-block w-100" alt="" />
               </div>
               <div class="carousel-item">
-                <img src="../assets/img(2).jpg" class="d-block w-100" alt="" />
+                <img src="@/assets/image(2).webp" class="d-block w-100" alt="" />
               </div>
               <div class="carousel-item">
-                <img src="../assets/img(3).jpg" class="d-block w-100" alt="" />
+                <img src="@/assets/image(3).webp" class="d-block w-100" alt="" />
               </div>
               <div class="carousel-item">
-                <img src="../assets/img(4).jpg" class="d-block w-100" alt="" />
+                <img src="@/assets/image(4).webp" class="d-block w-100" alt="" />
               </div>
               <div class="carousel-item">
-                <img src="../assets/img(5).jpg" class="d-block w-100" alt="" />
+                <img src="@/assets/image(5).webp" class="d-block w-100" alt="" />
               </div>
               <div class="carousel-item">
-                <img src="../assets/img(6).jpg" class="d-block w-100" alt="" />
+                <img src="@/assets/image(6).webp" class="d-block w-100" alt="" />
               </div>
               <div class="carousel-item">
-                <img src="../assets/img(7).jpg" class="d-block w-100" alt="" />
+                <img src="@/assets/image(7).webp" class="d-block w-100" alt="" />
               </div>
               <div class="carousel-item">
-                <img src="../assets/img(8).jpg" class="d-block w-100" alt="" />
+                <img src="@/assets/image(8).webp" class="d-block w-100" alt="" />
               </div>
               <div class="carousel-item">
-                <img src="../assets/img(9).jpg" class="d-block w-100" alt="" />
+                <img src="@/assets/image(9).webp" class="d-block w-100" alt="" />
               </div>
               <div class="carousel-item">
-                <img src="../assets/img(10).jpg" class="d-block w-100" alt="" />
+                <img src="@/assets/image(10).webp" class="d-block w-100" alt="" />
               </div>
               <div class="carousel-item">
-                <img src="../assets/img(11).jpg" class="d-block w-100" alt="" />
+                <img src="@/assets/image(11).webp" class="d-block w-100" alt="" />
               </div>
               <div class="carousel-item">
-                <img src="../assets/img(12).jpg" class="d-block w-100" alt="" />
+                <img src="@/assets/image(12).webp" class="d-block w-100" alt="" />
               </div>
             </div>
             <a

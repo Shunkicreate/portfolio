@@ -3,7 +3,7 @@
     <div class="container">
       <div class="row justify-content-center row-content gy-3">
         <div class="col-12">
-          <h2>This is portfolio of Shunki Tada</h2>
+          <h2>This is portfolio of Shunki Tada, 多田駿希</h2>
         </div>
         <div class="col-12 text">
           <h4>Who is he?</h4>
