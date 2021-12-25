@@ -2,13 +2,6 @@
   <div class="app">
     <div id="nav" class="shadow-sm">
       <ul class="nav justify-content-end">
-        <!-- <li class="nav-item">
-          <a
-            href="https://shunkis-portfolio.netlify.app/"
-            class="nav-link active"
-            aria-current="page"
-          >Home</a>
-        </li> -->
         <li class="nav-item">
           <router-link to="/" class="nav-link">Home</router-link>
         </li>

@@ -17,7 +17,7 @@
             <div class="col-md-12 text-start">
               <div class="row justify-content-evenly text-start">
                 <div class="col-md-2 col-auto text">
-                  <a target="__blank" href="https://t.co/dNOr2MoAXa?amp=1"
+                  <a target="__blank" href="https://mario-by-processing.netlify.app/"
                     ><button type="button" class="btn btn-outline-secondary">
                       website
                     </button></a
@@ -37,7 +37,7 @@
             <div class="col-12"><h4>My Works</h4></div>
             <div class="col-md-12">
               <ul>
-                <li>美女図鑑<a href="https://shunkicreate.github.io/beautiful_girl/" target="__blank"><button type="button" class="btn btn-outline-secondary">https://shunkicreate.github.io/beautiful_girl/</button></a></li>
+                <li>美女図鑑<a href="https://beautiful-girl-ronaldico.netlify.app/" target="__blank"><button type="button" class="btn btn-outline-secondary">https://beautiful-girl-ronaldico.netlify.app/</button></a></li>
                 <li>晩飯</li>
               </ul>
             </div>
