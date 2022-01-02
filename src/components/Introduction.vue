@@ -19,9 +19,10 @@
             <div class="col-md-12 text-start">
               <div class="row justify-content-evenly text-start">
                 <div class="col-md-2 col-auto text">
-                  <a target="_blank" rel="noopener noreferrer" href="https://t.co/dNOr2MoAXa?amp=1">
+                  <a target="_blank" rel="noopener noreferrer" href="https://mario-by-processing.netlify.app/">
                     <button type="button" class="btn btn-outline-secondary">website</button>
                   </a>
+
                 </div>
                 <div class="col-md-2 col-auto text">
                   <a
@@ -42,16 +43,17 @@
                 <li>
                   美女図鑑
                   <a
-                    href="https://shunkicreate.github.io/beautiful_girl/"
+                    href="https://beautiful-girl-ronaldico.netlify.app/"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
                     <button
                       type="button"
                       class="btn btn-outline-secondary"
-                    >https://shunkicreate.github.io/beautiful_girl/</button>
+                    >https://beautiful-girl-ronaldico.netlify.app/</button>
                   </a>
                 </li>
+
                 <li>晩飯</li>
               </ul>
             </div>

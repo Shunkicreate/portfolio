@@ -15,8 +15,6 @@
                 <div class="col-lg-4 col-md-8 col-6">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
-                    width="auto"
-                    height="auto"
                     fill="currentColor"
                     class="bi bi-controller"
                     viewBox="0 0 16 16"
@@ -31,7 +29,9 @@
                 </div>
               </div>
             </div>
-            <div class="col-md-8 border-start border-secondary border-1 text-start">
+            <div
+              class="col-md-8 border-start border-secondary border-1 text-start"
+            >
               <ul class="lists">
                 <li class="list-items">Super Mario</li>
                 <li class="list-items">Genshin Impact</li>
@@ -52,8 +52,6 @@
                 <div class="col-lg-4 col-md-8 col-6">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
-                    width="auto"
-                    height="auto"
                     fill="currentColor"
                     class="bi bi-music-note-beamed"
                     viewBox="0 0 16 16"
@@ -61,13 +59,20 @@
                     <path
                       d="M6 13c0 1.105-1.12 2-2.5 2S1 14.105 1 13c0-1.104 1.12-2 2.5-2s2.5.896 2.5 2zm9-2c0 1.105-1.12 2-2.5 2s-2.5-.895-2.5-2 1.12-2 2.5-2 2.5.895 2.5 2z"
                     />
-                    <path fill-rule="evenodd" d="M14 11V2h1v9h-1zM6 3v10H5V3h1z" />
-                    <path d="M5 2.905a1 1 0 0 1 .9-.995l8-.8a1 1 0 0 1 1.1.995V3L5 4V2.905z" />
+                    <path
+                      fill-rule="evenodd"
+                      d="M14 11V2h1v9h-1zM6 3v10H5V3h1z"
+                    />
+                    <path
+                      d="M5 2.905a1 1 0 0 1 .9-.995l8-.8a1 1 0 0 1 1.1.995V3L5 4V2.905z"
+                    />
                   </svg>
                 </div>
               </div>
             </div>
-            <div class="col-md-8 border-start border-secondary border-1 text-start">
+            <div
+              class="col-md-8 border-start border-secondary border-1 text-start"
+            >
               <ul class="lists">
                 <li class="list-items">Mr.Children</li>
                 <li class="list-items">Vocaloid(Deco*27, wowaka)</li>
@@ -88,20 +93,21 @@
                 <div class="col-lg-4 col-md-8 col-6">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
-                    width="auto"
-                    height="auto"
                     fill="currentColor"
                     class="bi bi-book"
                     viewBox="0 0 16 16"
                   >
                     <path
+                      fill-rule="evenodd"
                       d="M1 2.828c.885-.37 2.154-.769 3.388-.893 1.33-.134 2.458.063 3.112.752v9.746c-.935-.53-2.12-.603-3.213-.493-1.18.12-2.37.461-3.287.811V2.828zm7.5-.141c.654-.689 1.782-.886 3.112-.752 1.234.124 2.503.523 3.388.893v9.923c-.918-.35-2.107-.692-3.287-.81-1.094-.111-2.278-.039-3.213.492V2.687zM8 1.783C7.015.936 5.587.81 4.287.94c-1.514.153-3.042.672-3.994 1.105A.5.5 0 0 0 0 2.5v11a.5.5 0 0 0 .707.455c.882-.4 2.303-.881 3.68-1.02 1.409-.142 2.59.087 3.223.877a.5.5 0 0 0 .78 0c.633-.79 1.814-1.019 3.222-.877 1.378.139 2.8.62 3.681 1.02A.5.5 0 0 0 16 13.5v-11a.5.5 0 0 0-.293-.455c-.952-.433-2.48-.952-3.994-1.105C10.413.809 8.985.936 8 1.783z"
                     />
                   </svg>
                 </div>
               </div>
             </div>
-            <div class="col-md-8 border-start border-secondary border-1 text-start">
+            <div
+              class="col-md-8 border-start border-secondary border-1 text-start"
+            >
               <ul class="lists">
                 <li class="list-items">告白 湊かなえ</li>
                 <li class="list-items">砂漠 伊坂幸太郎</li>
@@ -110,9 +116,88 @@
             </div>
           </div>
         </div>
+        <div class="col-md-8 col-11 border border-secondary border-2 rounded-3">
+          <div class="row">
+            <div class="col-md-4">
+              <div class="row justify-content-center content-title">
+                <div class="col-12">
+                  <h3>PC</h3>
+                </div>
+              </div>
+              <div class="row justify-content-center">
+                <div class="col-lg-4 col-md-8 col-6">
+                  <svg
+                    version="1.1"
+                    id="_x32_"
+                    xmlns="http://www.w3.org/2000/svg"
+                    xmlns:xlink="http://www.w3.org/1999/xlink"
+                    fill="currentColor"
+                    viewBox="0 0 512 512"
+                    xml:space="preserve"
+                  >
+                    <g>
+                      <path
+                        class="st0"
+                        d="M331.188,80.469H19.5C8.781,80.469,0,89.25,0,99.984v255.641c0,10.719,8.781,19.5,19.5,19.5h90.438v37.719
+		H84.516v18.688h181.672v-18.688H240.75v-37.719h90.438c10.719,0,19.5-8.781,19.5-19.5V99.984
+		C350.688,89.25,341.906,80.469,331.188,80.469z M325.313,341.969H25.359V105.828h299.953V341.969z"
+                      ></path>
+                      <path
+                        class="st0"
+                        d="M492.094,80.469H391.469c-10.984,0-19.906,8.906-19.906,19.906v311.25c0,11,8.922,19.906,19.906,19.906
+		h100.625c11,0,19.906-8.906,19.906-19.906v-311.25C512,89.375,503.094,80.469,492.094,80.469z M441.781,343.766
+		c-12.594,0-22.813-10.219-22.813-22.813c0-12.609,10.219-22.828,22.813-22.828s22.828,10.219,22.828,22.828
+		C464.609,333.547,454.375,343.766,441.781,343.766z M477.781,201.594h-70.219v-14.047h70.219V201.594z M477.781,159.453h-70.219
+		v-14.031h70.219V159.453z"
+                      ></path>
+                    </g>
+                  </svg>
+                </div>
+              </div>
+            </div>
+            <div
+              class="col-md-8 border-start border-secondary border-1 text-start"
+            >
+              <ul class="lists">
+                <li class="list-items">CPU: AMD Ryzen5 3600X</li>
+                <li class="list-items">GPU: NVIDIA GeForce GTX1650</li>
+                <li class="list-items">Memory: T-FORCE VULCAN Z DDR4-3200 8GB</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-8 col-11 border border-secondary border-2 rounded-3">
+          <div class="row">
+            <div class="col-md-4">
+              <div class="row justify-content-center content-title">
+                <div class="col-12">
+                  <h3>Coding Lang</h3>
+                </div>
+              </div>
+              <div class="row justify-content-center">
+                <div class="col-lg-4 col-md-8 col-6">
+                  <img src="../assets/code.svg"/>
+                </div>
+              </div>
+            </div>
+            <div
+              class="col-md-8 border-start border-secondary border-1 text-start"
+            >
+              <ul class="lists">
+                <li class="list-items">Python flask, openCV, </li>
+                <li class="list-items">C</li>
+                <li class="list-items">Vue.js</li>
+                <li class="list-items">Processing</li>
+                <li class="list-items">HTML, CSS</li>
+              </ul>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
+
   </div>
+
 </template>
 
 <style lang="scss">
@@ -135,6 +220,11 @@
 .content-title {
   margin: 3em auto;
 }
+
+// .svg-file{
+//   width: 100%;
+//   fill: currentColor;
+// }
 @media screen and (max-width: 992px) {
   .lists {
     margin: 4em 2em;

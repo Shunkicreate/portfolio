@@ -3,10 +3,7 @@
     <a id="top"></a>
     <h1 class="title" style="font-size: 6ex;">History</h1>
     <div class="container">
-      <div class="row text-center justify-content-center history_row">
-        <div class="col-12"></div>
 
-      </div>
       <div class="row text-start justify-content-center history_row">
         <div class="col-lg-3 col-12 title">Hometown</div>
         <div class="col-lg-7 col-11 text-break text">
@@ -49,7 +46,7 @@
 <style lang="scss">
 
 .history_row {
-  margin: 3em;
+  margin: 7em;
 }
 
 .title {

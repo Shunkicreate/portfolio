@@ -1,5 +1,5 @@
 <template>
-  <div class="footer">
+  <div class="footer" style="border-top: solid 2px #dddddd;">
     <div class="container">
       <div class="row justify-content-center gy-3 sns-icon">
         <div class="col-md-1 col-4">
