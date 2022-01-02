@@ -157,15 +157,4 @@ export default defineComponent({
 .footer {
   padding: 2em;
 }
-
-a:hover path {
-  color: #c9c8c8;
-  transition: 0.5s;
-}
-a:visited {
-  color: #2c3e50;
-}
-a:link {
-  color: #2c3e50;
-}
 </style>

@@ -43,10 +43,6 @@ export default defineComponent({
 </script>
 
 <style>
-h1 {
-  padding-top: 0.5em;
-  font-family: serif, system-ui;
-}
 
 .home {
   font-family: serif, system-ui;

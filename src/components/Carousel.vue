@@ -86,10 +86,7 @@ export default defineComponent({
 </script>
 
 <style>
-h3 {
-  font-family: serif, system-ui;
-  font-weight: lighter;
-}
+
 
 img {
   margin-top: 1em;

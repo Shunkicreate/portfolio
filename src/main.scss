@@ -1,18 +1,61 @@
-a {
-    &:hover {
-        font: optional;
+* {
+    margin: 0;
+}
+
+#app {
+    font-family: Avenir, Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-align: center;
+    color: #2c3e50;
+    background-color: #efeff0;
+    h1 {
+        padding-top: 0.5em;
+        font-family: serif, system-ui;
     }
-}
-
-a:hover path {
-    color: #c9c8c8;
-    transition: 0.5s;
-}
-
-a:visited {
-    color: #2c3e50;
-}
-
-a:link {
-    color: #2c3e50;
+    h3 {
+        font-family: serif, system-ui;
+        font-weight: lighter;
+    }
+    a {
+        text-decoration: none;
+        &:visited {
+            color: #2c3e50;
+        }
+        &:link {
+            color: #2c3e50;
+        }
+        &:hover {
+            color: #c9c8c8;
+            transition: 0.5s;
+        }
+    }
+    #nav {
+        padding: 50px;
+        background-color: #efeff0;
+        a {
+            font-weight: bold;
+            transition: 1s;
+            &.router-link-exact-active:link {
+                color: #2c3e50;
+            }
+            &.router-link-exact-active:visited {
+                color: #c9c8c8;
+            }
+            &.router-link-active:hover {
+                color: #2c3e50;
+            }
+        }
+    }
+    .nav-link {
+        font-family: serif, system-ui;
+    }
+    .fade-enter-active,
+    .fade-leave-active {
+        transition: opacity 3s;
+    }
+    .fade-enter-from,
+    .fade-leave-to {
+        opacity: 3s;
+    }
 }

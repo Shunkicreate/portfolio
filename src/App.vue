@@ -37,50 +37,6 @@ export default {
 
 
 <style lang="scss">
-* {
-  margin: 0;
-}
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  background-color: #efeff0;
-}
+@import "./main.scss"
 
-
-#nav {
-  padding: 50px;
-  background-color: #efeff0;
-
-  a {
-    font-weight: bold;
-    color: #2c3e50;
-    transition: 1s;
-
-    &.router-link-exact-active:visited {
-      color: #c9c8c8;
-    }
-    &.router-link-active:hover {
-      color: #2c3e50;
-    }
-  }
-}
-
-
-
-.nav-link {
-  font-family: serif, system-ui;
-}
-
-.fade-enter-active,
-.fade-leave-active {
-  transition: opacity 3s;
-}
-
-.fade-enter-from,
-.fade-leave-to {
-  opacity: 0;
-}
 </style>

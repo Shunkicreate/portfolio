@@ -31,14 +31,6 @@ const routes: Array<RouteRecordRaw> = [
     // which is lazy-loaded when the route is visited.
     component: () => import(/* webpackChunkName: "About" */ '../views/About.vue')
   },
-  {
-    path: '/mario',
-    name: 'Mario',
-    // route level code-splitting
-    // this generates a separate chunk (Mario.[hash].js) for this route
-    // which is lazy-loaded when the route is visited.
-    component: () => import(/* webpackChunkName: "About" */ '../views/Mario.vue')
-  },
 ]
 
 const router = createRouter({
