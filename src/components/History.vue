@@ -1,9 +1,9 @@
-<template>
+<!-- <template>
   <div class="history">
     <a id="top"></a>
     <div class="container">
       <div class="row text-center justify-content-center history_row">
-        <div class="col-12"><h1 class="title" style="font-size: 6ex;">History</h1></div>
+        <div class="col-12"><h1 class="title" style="font-size: 6ex">History</h1></div>
 
       </div>
       <div class="row text-start justify-content-center history_row">
@@ -69,4 +69,4 @@ import { defineComponent } from 'vue';
 export default defineComponent({
   name: 'History',
 });
-</script>
+</script> -->

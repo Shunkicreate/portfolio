@@ -1,61 +1,69 @@
-* {
-    margin: 0;
-}
-
-#app {
-    font-family: Avenir, Helvetica, Arial, sans-serif;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    text-align: center;
-    color: #2c3e50;
-    background-color: #efeff0;
-    h1 {
-        padding-top: 0.5em;
-        font-family: serif, system-ui;
+    * {
+        margin: 0;
     }
-    h3 {
-        font-family: serif, system-ui;
-        font-weight: lighter;
-    }
-    a {
-        text-decoration: none;
-        &:visited {
-            color: #2c3e50;
-        }
-        &:link {
-            color: #2c3e50;
-        }
-        &:hover {
-            color: #c9c8c8;
-            transition: 0.5s;
-        }
-    }
-    #nav {
-        padding: 50px;
+    
+    #app {
+        font-family: Avenir, Helvetica, Arial, sans-serif, system-ui;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        text-align: center;
+        color: #2c3e50;
         background-color: #efeff0;
+        h1 {
+            padding-top: 0.5em;
+            font-family: serif, system-ui;
+        }
+        h3 {
+            font-family: serif, system-ui;
+            // font-weight: lighter;
+        }
         a {
-            font-weight: bold;
-            transition: 1s;
-            &.router-link-exact-active:link {
+            &:visited {
                 color: #2c3e50;
             }
-            &.router-link-exact-active:visited {
+            &:link {
+                color: #2c3e50;
+            }
+            &:hover {
                 color: #c9c8c8;
-            }
-            &.router-link-active:hover {
-                color: #2c3e50;
+                transition: 0.5s;
             }
         }
+        #nav {
+            padding: 50px;
+            background-color: #efeff0;
+            a {
+                font-weight: bold;
+                transition: 1s;
+                &.router-link-exact-active:link {
+                    color: #2c3e50;
+                }
+                &.router-link-exact-active:visited {
+                    color: #c9c8c8;
+                }
+                &.router-link-active:hover {
+                    color: #2c3e50;
+                }
+            }
+            @media screen and (max-width: 767px) {
+                padding: 2em 0;
+            }
+        }
+        .title {
+            margin: 2em;
+            @media screen and (max-width: 767px) {
+                margin: 1em 0;
+            }
+        }
+        .nav-link {
+            font-family: serif, system-ui;
+        }
+        .fade-enter-active,
+        .fade-leave-active {
+            transition: opacity 3s;
+        }
+        .fade-enter-from,
+        .fade-leave-to {
+            opacity: 3s;
+        }
     }
-    .nav-link {
-        font-family: serif, system-ui;
-    }
-    .fade-enter-active,
-    .fade-leave-active {
-        transition: opacity 3s;
-    }
-    .fade-enter-from,
-    .fade-leave-to {
-        opacity: 3s;
-    }
-}

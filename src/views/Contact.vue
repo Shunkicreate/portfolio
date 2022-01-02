@@ -49,7 +49,7 @@ export default defineComponent({
 }
 
 .card-title {
-  padding: 5em;
+  padding: 5em 0;
 }
 
 .contact-list {

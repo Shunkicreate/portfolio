@@ -2,7 +2,7 @@
   <div class="about">
     <h1 class="title" style="font-size: 6ex">About me</h1>
     <div class="container">
-      <div class="row text-center justify-content-center history_row gy-5">
+      <div class="row text-center justify-content-center gy-5">
         <div class="col-md-8 col-11 border border-secondary border-2 rounded-3">
           <div class="row">
             <div class="col-md-4">
@@ -227,7 +227,7 @@
 // }
 @media screen and (max-width: 992px) {
   .lists {
-    margin: 4em 2em;
+    margin: 4em 1em;
   }
   //   .content-title{
   //   margin-top:1em;
