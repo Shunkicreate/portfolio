@@ -3,16 +3,16 @@
     <div id="nav" class="shadow-sm">
       <ul class="nav justify-content-end">
         <li class="nav-item">
-          <router-link to="/" class="nav-link">Home</router-link>
+          <router-link to="/" class="nav-link" active-class="active-link">Home</router-link>
         </li>
         <li class="nav-item">
-          <router-link to="/history" class="nav-link">History</router-link>
+          <router-link to="/history" class="nav-link" active-class="active-link">History</router-link>
         </li>
         <li class="nav-item">
-          <router-link to="/contact" class="nav-link">Contact</router-link>
+          <router-link to="/contact" class="nav-link" active-class="active-link">Contact</router-link>
         </li>
         <li class="nav-item">
-          <router-link to="/about" class="nav-link">About me</router-link>
+          <router-link to="/about" class="nav-link" active-class="active-link">About me</router-link>
         </li>
       </ul>
     </div>
@@ -23,7 +23,7 @@
   </div>
 </template>
 
-// <script lang="ts">
+<script lang="ts">
 import Footer from "../src/components/Footer.vue";
 
 export default {
@@ -37,6 +37,5 @@ export default {
 
 
 <style lang="scss">
-@import "./main.scss"
-
+@import "./main.scss";
 </style>
