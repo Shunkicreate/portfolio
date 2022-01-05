@@ -10,10 +10,10 @@
           <router-link to="/history" class="nav-link" active-class="active-link">History</router-link>
         </li>
         <li class="nav-item">
-          <router-link to="/contact" class="nav-link" active-class="active-link">Contact</router-link>
+          <router-link to="/about" class="nav-link" active-class="active-link">About me</router-link>
         </li>
         <li class="nav-item">
-          <router-link to="/about" class="nav-link" active-class="active-link">About me</router-link>
+          <router-link to="/contact" class="nav-link" active-class="active-link">Contact</router-link>
         </li>
       </ul>
     </div>
