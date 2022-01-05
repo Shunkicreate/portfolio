@@ -5,9 +5,19 @@
       <div class="row text-start justify-content-center history_row">
         <div class="col-lg-3 col-12 subtitle">Hometown</div>
         <div class="col-lg-7 col-11 text-break history-text">
-          I am from Toon City, Ehime Prefecture, Japan . I went to Minami Yoshii
-          Elementary School, Shigenobu Junior High School, and Matsuyamahigashi
-          High School.
+          I am from Toon City, Ehime Prefecture, Japan. 
+        </div>
+      </div>
+
+      <div class="row text-start justify-content-center history_row">
+        <div class="col-lg-3 col-12 subtitle">Educational Background</div>
+        <div class="col-lg-7 col-11 text-break history-text">
+          <ul>
+          <li><a href="https://minamiyoshii-e.esnet.ed.jp/" target="_blank" rel="noopener noreferrer">Minami-yoshii Elementary School</a></li>
+          <li><a href="https://shigenobu-j.esnet.ed.jp/" target="_blank" rel="noopener noreferrer">Shigenobu Junior High School</a></li>
+          <li><a href="https://matsuyamahigashi-h.esnet.ed.jp/" target="_blank" rel="noopener noreferrer">Matsuyamahigashi High School</a></li>
+          <li><a href="http://www.ritsumei.ac.jp/" target="_blank" rel="noopener noreferrer">Ritsumeikan University -the Faculty of Information Science and Engineering</a></li>
+          </ul>
         </div>
       </div>
 
