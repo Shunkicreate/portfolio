@@ -50,8 +50,15 @@
                     rel="noopener noreferrer"
                   >美女図鑑</a>
                 </li>
+                <li>
+                  <a
+                    href="https://dabemon-go.glideapp.io/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >ダベモン図鑑</a>
+                </li>
 
-                <li>晩飯</li>
+                <li>晩飯 -comming soon-</li>
               </ul>
             </div>
             <div class="col-12">
