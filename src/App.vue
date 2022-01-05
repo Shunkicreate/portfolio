@@ -1,6 +1,7 @@
 <template>
   <div class="app">
-    <div id="nav" class="shadow-sm">
+  <header class="shadow-sm">
+    <div id="nav">
       <ul class="nav justify-content-end">
         <li class="nav-item">
           <router-link to="/" class="nav-link" active-class="active-link">Home</router-link>
@@ -16,10 +17,15 @@
         </li>
       </ul>
     </div>
-    <transition name="fade">
-      <router-view />
-    </transition>
+  </header>
+  <body>
+    <router-view v-slot="{ Component }">
+      <transition name="fade" mode="out-in">
+        <component :is="Component" />
+      </transition>
+    </router-view>
     <Footer />
+  </body>
   </div>
 </template>
 

@@ -3,7 +3,8 @@
 }
 
 #app {
-    font-family: Avenir, Helvetica, Arial, sans-serif, system-ui;
+    // font-family: Avenir, Helvetica, Arial, sans-serif, system-ui;
+    font-family: LinotypeUnivers-430Regular, "Gothic Medium BBB", 游ゴシック, "Yu Gothic", 游ゴシック体, YuGothic, "ヒラギノ角ゴ Pro W3", メイリオ, Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     text-align: center;
@@ -15,7 +16,6 @@
     }
     h3 {
         font-family: serif, system-ui;
-        // font-weight: lighter;
     }
     a {
         &:visited {
@@ -38,35 +38,60 @@
             }
         }
     }
-    #nav {
-        padding: 50px;
-        background-color: #efeff0;
-        a {
-            font-weight: bold;
-            transition: 1s;
-            &.router-link-exact-active:link {
-                color: #2c3e50;
-            }
-            &.router-link-exact-active:visited {
-                color: #c9c8c8;
-            }
-            @media screen and (max-width: 767px) {
-                &.router-link-active:link {
+    header {
+        position: fixed;
+        padding: 3em;
+        top: 0;
+        left: 0;
+        width: 100%;
+        background: #efeff0;
+        z-index: 10;
+        @media screen and (max-width: 767px) {
+            padding: 1em 0;
+        }
+        #nav {
+            height: 3em;
+            display: table;
+            width: 100%;
+            // ul {
+            //     background-color: #efeff0;
+            // }
+            // background-color: #efeff0;
+            a {
+                font-weight: bold;
+                transition: 1s;
+                &.router-link-exact-active:link {
+                    color: #2c3e50;
+                }
+                &.router-link-exact-active:visited {
+                    color: #c9c8c8;
+                }
+                @media screen and (max-width: 767px) {
+                    &.router-link-active:link {
+                        color: #2c3e50;
+                    }
+                }
+                &.router-link-active:hover {
                     color: #2c3e50;
                 }
             }
-            &.router-link-active:hover {
-                color: #2c3e50;
+            @media screen and (max-width: 767px) {
+                height: 1em 0;
             }
         }
+    }
+    body {
+        background-color: #efeff0;
+        padding-top: 9em;
+        z-index: 0;
         @media screen and (max-width: 767px) {
-            padding: 2em 0;
+            padding-top: 5em;
         }
     }
     .title {
         margin: 2em;
         @media screen and (max-width: 767px) {
-            margin: 1em 0;
+            margin: 0.5em;
         }
     }
     .active-link {
@@ -81,7 +106,7 @@
     }
     .fade-enter-active,
     .fade-leave-active {
-        transition: opacity 5s;
+        transition: opacity 1s;
     }
     .fade-enter-from,
     .fade-leave-to {

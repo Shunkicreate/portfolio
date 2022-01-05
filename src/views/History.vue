@@ -24,14 +24,14 @@
       <div class="row text-start justify-content-center history_row">
         <div class="col-lg-3 col-12 subtitle">What are you doing</div>
         <div class="col-lg-7 col-11 text-break history-text">
-          I started programming when I entered university, and I am currently studying to become a programmer. First, I studied Processing, and then I realized the fun of programming. After that, I studied web front, Python, and so on. Now, I try to make a lot of useful website. And, I am learning about AI. 
+          I started programming when I entered university, and I am currently studying to become a programmer. First, I studied Processing, and then I realized the fun of programming. After that, I studied web front, Python, and so on. Now, I try to make a lot of useful website, and I am learning about AI. 
         </div>
       </div>
 
       <div class="row text-start justify-content-center history_row">
         <div class="col-lg-3 col-12 subtitle">Favorites</div>
         <div class="col-lg-7 col-11 text-break history-text">
-          My favorite thing to do is to play games. I'm currently playing Haragami and Winning Eleven. I also like Splatoon, and I basically love Nintendo's Mario games. I also listen to music a lot, and am a fan of Mr.Children. I also listen to Vocaloid music, such as Hatsune Miku and Kagamine Rinren. I also like to read books. My favorite authors are Kanae Minato and Kotaro Isaka, and I especially love Confessions and Desert. "About me" page show you more about my favorites. 
+          My favorite thing to do is to play games. I'm currently playing Genshin Impact and Winning Eleven. I also like Splatoon, and I basically love Nintendo's Mario games. I also listen to music a lot, and am a fan of Mr.Children. I also listen to Vocaloid music, such as Hatsune Miku and Kagamine Rinren. I also like to read books. My favorite authors are Kanae Minato and Kotaro Isaka, and I especially love Kanae Minato's Confessions and Kotaro Isaka's Desert. "About me" page show you more about my favorites. 
         </div>
       </div>
 

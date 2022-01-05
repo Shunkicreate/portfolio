@@ -8,7 +8,7 @@
         <div class="col-md-6 col-12">
           <div class="row justify-content-center row-content text-start gy-3">
             <div class="col-12">
-              <h4 class="intro-title">My first work</h4>
+              <h2 class="intro-title">My first work</h2>
             </div>
             <div>
               This is my first work in programming. I love Mario so much that I
@@ -39,7 +39,7 @@
               </div>
             </div>
             <div class="col-12">
-              <h4 class="intro-title">My Works</h4>
+              <h2 class="intro-title">My Works</h2>
             </div>
             <div class="col-md-12">
               <ul>
@@ -62,7 +62,7 @@
               </ul>
             </div>
             <div class="col-12">
-              <h4 class="intro-title">Internships</h4>
+              <h2 class="intro-title">Internships</h2>
             </div>
             <div class="col-md-12">
               <ul>
@@ -82,7 +82,7 @@
               </ul>
             </div>
             <div class="col-12">
-              <h4 class="intro-title">Who is he?</h4>
+              <h2 class="intro-title">Who is he?</h2>
             </div>
             <div class="col-12 who-text">
               Shunki Tada is a programmer.
