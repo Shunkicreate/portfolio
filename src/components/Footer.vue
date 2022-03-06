@@ -26,7 +26,7 @@
 
         <div class="col-md-1 col-4">
           <a
-            href="https://twitter.com/syunki____"
+            href="https://twitter.com/shunki______"
             target="_blank"
             rel="noopener noreferrer"
             class="sns"
