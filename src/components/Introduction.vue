@@ -81,7 +81,7 @@
               <ul>
                 <li>
                   <a
-                    href="https://www.trypotlatch.com/"
+                    href=""
                     target="_blank"
                     rel="noopener noreferrer"
                   >Potlatch</a> | Jan-Feb 2021
