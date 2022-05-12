@@ -57,8 +57,21 @@
                     rel="noopener noreferrer"
                   >ダベモン図鑑</a>
                 </li>
+                <li>
+                  <a
+                    href="https://banmeshikun.com/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >晩飯</a>
+                </li>
+                <li>
+                  <a
+                    href="https://water-canvas.netlify.app/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >WATER CANVAS</a>
+                </li>
 
-                <li>晩飯 -comming soon-</li>
               </ul>
             </div>
             <div class="col-12">
